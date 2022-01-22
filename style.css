@@ -1,0 +1,173 @@
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.hero-background, .information, .quote {
+    padding: 0px 300px;
+}
+
+.hero-background {
+    background-color: #1F2937;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #F9FAF8;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+    color: #E5E7EB;
+}
+
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 100px 0px;
+}
+
+.hero-main-text, .hero-secondary-text, .upper-button {
+    display: flex;
+    margin: 10px;
+    padding: 0;
+}
+
+.hero-main-text {
+    font-size: 48px;
+    font-weight: bolder;
+    color: white;
+    padding: 0px;
+}
+
+.hero-secondary-text {
+    font-size: 18px;
+    color: #E5E7EB;
+    padding: 0px;
+}
+
+.upper-button, .action-button {
+    color: #F9FAF8;
+    background-color: #3992F6;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 10px 40px; 
+    border-radius: 8px;
+}
+
+.upper-button {
+    border: none;
+}
+
+.image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    width: 1000px;
+    background-color: #707b83;
+
+}
+
+.placeholder { 
+    color: #E5E7EB; 
+}
+
+.information-header {
+    text-align: center;
+    padding: 32px;
+}
+
+.information {
+    display:  flex;
+    text-align: center;
+    align-items: center;
+    justify-content:center;
+    gap: 100px;
+}
+
+.flex-cards {
+    display: flex;
+    flex-direction: column;
+    height: 300px;
+    width: 150px;
+}
+.cards {
+    height: 150px;
+    width: 150px;
+    margin-bottom: 5px;
+    border: 5px;
+    border-style: solid;
+    border-color: #3992F6;
+    border-radius: 15px;
+}
+
+.quote {
+    padding: 100px 300px;
+    display: flex;
+    flex-direction: column;
+    background-color: #E5E7EB;
+}
+
+.quote-text, .quote-author {
+    padding: 0px 270px;
+    font-weight: lighter;
+    font-size: 36px;
+    color:  #1F2937;
+}
+
+
+.quote-author {
+    font-weight: normal;
+    align-self: flex-end;
+}
+
+.body-action {
+    padding: 100px 300px;
+}
+.call-to-action {
+    display: flex;
+    padding: 50px 0px;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #3992F6;
+    border-radius: 15px;
+}
+
+.action-text {
+    color: white;
+    font-size: 30px;
+}
+
+.sub-text {
+    font-size: 20px;
+    font-weight: lighter;
+}
+
+
+.action-button {
+    border-style: solid;
+    border-color: white;
+}
+
+.footer {
+    color: white;
+    background-color: #1F2937;
+    text-align: center;
+    padding: 30px;
+}
